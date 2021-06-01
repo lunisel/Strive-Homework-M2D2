@@ -43,16 +43,22 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
             to make sure you give every album the same consistent appearance.
          */
          
-         .album-container {
-
+         #shame {
+             text-align: center;
          }
 
-         .album-cover {
-
+         #hall-shame {
+             background-color: rgb(134, 37, 37);
+             padding: 10px;
+             color: white;
          }
 
-         .album-title {
-
+         footer {
+             background-color: rgb(45, 80, 80);
+             color: white;
+             padding: 20px;
+             text-align: center;
+             margin: 0;
          }
          .album-artist {
 
@@ -78,15 +84,14 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
                 <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-link" href="#">Features</a>
-                <a class="nav-link" href="#">Pricing</a>
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <a class="nav-link" href="#shame">Hall of Shame</a>
+                <a class="nav-link" href="#">Favourite Artist</a>
               </div>
             </div>
           </nav>
           <div class="container-fluid">
-              <div class="row">
-                  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="row row-col-sm-2 row-col-md-3 row-col-lg-4">
+                  <div class="col">
                       <div class="card" style="width: 18rem;">
                          <img src="aliento.jpg" class="card-img-top" alt="Aliento-Denit">
                          <div class="card-body">
@@ -97,7 +102,7 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
                            <a href="https://open.spotify.com/album/05WSKyQ8c6mY8IpIVangkd" class="btn btn-primary" target="_blank">Click here to listen</a>
                       </div>
                   </div></div>
-                  <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="card" style="width: 18rem;">
+                  <div class="col"><div class="card" style="width: 18rem;">
                     <img src="Anderson-Park-Malibu-Cover.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Malibu</h5>
@@ -107,7 +112,7 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
                         <a href="https://open.spotify.com/album/6xNFuLOko8gjxi5kUAyGyM" class="btn btn-primary" target="_blank">Click here to listen</a>
                     </div>
                   </div></div>
-                  <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                  <div class="col">
                       <div class="card" style="width: 18rem;">
                     <img src="californication.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -118,7 +123,7 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
                         <a href="https://open.spotify.com/album/0fLhefnjlIV3pGNF9Wo8CD" class="btn btn-primary" target="_blank">Click here to listen</a>
                     </div>
                   </div></div>
-                  <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="card" style="width: 18rem;">
+                  <div class="col"><div class="card" style="width: 18rem;">
                     <img src="Mis-manos.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Mis Manos</h5>
@@ -128,7 +133,9 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
                         <a href="https://open.spotify.com/album/1PuH88Md0tzB8UrnBfboJA" class="btn btn-primary" target="_blank">Click here to listen</a>
                     </div>
                   </div></div>
-                  <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="card" style="width: 18rem;">
+                  </div>
+                  <div class="row">
+                  <div class="col col-lg-3"><div class="card" style="width: 18rem;">
                     <img src="mowgli.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Mowgli</h5>
@@ -138,7 +145,7 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
                         <a href="https://open.spotify.com/album/2F4YVNFy52kTEGDXdeYiZX" class="btn btn-primary" target="_blank">Click here to listen</a>
                     </div>
                   </div></div>
-                  <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="card" style="width: 18rem;">
+                  <div class="col col-lg-3"><div class="card" style="width: 18rem;">
                     <img src="NathyPelusoCalambre.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Calambre</h5>
@@ -148,8 +155,32 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
                         <a href="https://open.spotify.com/album/0HvKhpJzjmC5wloza8MjXF" class="btn btn-primary" target="_blank">Click here to listen</a>
                     </div>
                   </div></div>
+                  <div class="col col-lg-6" id="shame">
+                      <h3 id="hall-shame">Hall of shame:</h3>
+                      <div class="row row-col-sm-2 row-col-md-3 row-col-lg-4">
+                          <div class="col">
+                              <div class="card">
+                                  <img src="Marilyn_Manson_-_Eat_Me_Drink_Me.png" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                      <h5 class="card-title">Eat Me Drink Me</h5>
+                                      <p class="card-text">Artist : Marilyn Manson</p>
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="col"><div class="card">
+                            <img src="dogocrazia.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Dogocrazia</h5>
+                                <p class="card-text">Artist : Club Dogo</p>
+                            </div>
+                    </div>
+                    
                   </div>
               </div>
+            </div>
+        </div>
+        </div>
+        <footer>Copyright © My Page 2021</footer>
               
 
     <!-- EXERCISE 3
